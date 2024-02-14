@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #FFDEAD;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0px;
+}
+
+li {
+    display: inline;
+    margin-right: 100px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+
+li:last-child {
+    margin-right: 0px;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+.section-about {
+    height: 640px;
+    background: url(../img/mdf-boards-inside-warehouse.jpg) center/cover no-repeat;
+
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.section-about_block {
+    width: 420px;
+    height: 190px;
+    background: linear-gradient(180deg, rgba(244, 213, 178, 0.8) 0%, rgba(234, 156, 65, 0.8)100%);
+    position: absolute;
+    top: 60%;
+    left: 55%;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.section-about_border {
+    width: 390px;
+    height: 160px;
+    border:1px solid black;
+    margin: 0 auto;
+    padding-top: 17px;
+}
+
+.section-about__title{
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+.section-about__text {
+    font-size: 18px;
+    margin: 0;
+}
+
+.section-description {
+    margin: 20px;
+}
+
+.section-description__icon-box {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.section-description__title {
+    font-size: 60px;
+    margin: 0px;
+    text-align: center;
+}
+
+.section-description__title2 {
+    font-size: 30px;
+    margin: 0px;
+    text-align: center;
+}
+
+.red {
+    color: 	#8B0000;
+}
+
+.section-description__text {
+    font-size: 18px;
+    margin: 0px;
+    text-align: justify;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.section-map {
+    margin-bottom: 20px;
+}
+
+.section-map__title {
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+
+.line {
+    border-top: 1px solid #999999;
+    width: 1024px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+footer {
+    height: 80px;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+.glow:hover {
+ color: #B22222;
+} 
+
